@@ -3,3 +3,253 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .header {
+    display: flex;
+    background-color: #fff5f0;
+    padding: 20px 195px 20px 195px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+  }
+
+  .header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .header__links {
+    display: flex;
+    gap: 21px;
+  }
+
+  .header-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+  }
+
+  .header__auth-links {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .header__authetication {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .header-link--blue-color{
+    color: #1ba0ab;
+  }
+  
+  .header-button {
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #1ba0ab;
+    background-color: #1ba0ab;
+    color: white;
+  }
+
+  .hero-section {
+    padding: 163px ;
+    background-color: #fff5f0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-text__title {
+    color: #1ba0ab;
+    font-weight: 700;
+  }
+
+   .section-text__heading {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+  .section-text__description {
+    font-size: 14px;
+    color: #737373;
+    line-height: 20px;
+    font-weight: 400;
+    max-width: 469px;
+  }
+  
+  .section-text__description--size {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero__buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .button--primary {
+    background-color: #1ba0ab;
+    color: white;
+  }
+
+   .button--big {
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #1ba0ab;
+    background-color: #1ba0ab;
+    color: white;
+  }
+
+  .button--secondary {
+    background-color: transparent;
+    border: 2px solid #1ba0ab;
+    color: #1ba0ab;
+    
+  }
+
+  .button--size{
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+
+  .experts-section {
+    padding: 160px 197px 160px 197px;
+    display: flex;
+    align-items: center;
+    gap: 144px;
+  }
+  .meet-section__image {
+    width: 300px;
+  }
+
+  .experts-section__line {
+    height: 7px;
+    width: 80px;
+    background-color: #e74040;
+    margin-bottom: 35px;
+  }
+
+  .experts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .section-text--gap{
+    gap: 40px;
+  }
+
+  .section-text__heading{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .employee-section {
+    padding: 112px 198px 112px 198px;
+  }
+
+  .employee-section__cards {
+    margin-top: 112px;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    gap: 30px;
+  }
+
+  .parent-card {
+    max-width: 238px;
+    gap: 30px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .parent-card__photo {
+    width: 100%;
+  }
+
+  .parent-card__content {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .parent-card__person-contact{
+    font-weight: 900;
+  }
+  .parent-card__work{
+    font-size: 12px;
+    color: #737373;
+    font-weight: 200;
+  }
+
+  .parent-card__social-medias{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 160px 195px 160px 195px;
+    background-color: #fff5f0;
+  }
+
+  .section-text--middle {
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .footer {
+    padding: 160px 195px 160px 195px;
+    background-color: #fff5f0;
+  }
+  
+  .footer__input-container {
+    display: flex;
+    margin-top: 81px;
+    justify-content: center;
+    height: 50px;
+  }
+  .footer__input {
+    padding-left: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px 0 0 5px;
+    width: 600px;
+  }
+
+  .button--Subscribe {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    width: 90px;
+  }
