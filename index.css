@@ -29,7 +29,7 @@
     gap: 21px;
   }
 
-  .header-link {
+  .header-link-element {
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -49,11 +49,11 @@
     gap: 45px;
   }
 
-  .header-link--blue-color{
+  .header-link--color{
     color: #1ba0ab;
   }
   
-  .header-button {
+  .header-btn {
     padding: 15px 25px 15px 25px;
     font-size: 14px;
     font-weight: 700;
