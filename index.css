@@ -248,8 +248,6 @@
   }
 
   .button--Subscribe {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
     border: none;
-    width: 90px;
+    width: 120px;
   }
