@@ -71,52 +71,74 @@
     flex-direction: column;
     gap: 30px;
   }
-
+/* section text */ 
   .section-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+.welcome-section__text{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+/* section text__title */ 
   .section-text__title {
     color: #1ba0ab;
     font-weight: 700;
+  }
+
+
+  .welcome-section__title{
+    color: #1ba0ab;
+    font-weight: 700;
+  }
+  .welcome-section__subtitle{
+    width: 30rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
    .section-text__heading {
     font-weight: 800px;
     line-height: 60px;
    
   }
+
+   /* section text__subtitle */ 
   .section-text--subtitle{
     width: 30rem;
     font-size: 3rem;
     line-height: 4rem;
   }
 
-  .section-text__description {
+
+   /* section text__descr */ 
+   .section-text__description {
     font-size: 14px;
     color: #737373;
     line-height: 20px;
     font-weight: 400;
     max-width: 469px;
   }
-  
-  .section-text__description--size {
+
+  .welcome-section__description {
+    color: #737373;
+    font-weight: 400;
+    max-width: 469px;
     font-size: 20px;
     line-height: 30px;
   }
+  
 
-  .welcome__buttons {
+  .welcome-btns {
     display: flex;
     gap: 10px;
   }
 
-  .button--primary {
+  .welcome__btns--big {
     background-color: #1ba0ab;
     color: white;
-  }
-
-   .button--big {
     padding: 15px 25px 15px 25px;
     font-size: 14px;
     font-weight: 700;
@@ -127,19 +149,29 @@
     color: white;
   }
 
-  .button--secondary {
-    background-color: transparent;
-    border: 2px solid #1ba0ab;
-    color: #1ba0ab;
-    
-  }
-
-  .button--size{
+   /* .button--big {
     padding: 15px 25px 15px 25px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;
+    border: none;
+    background-color: #1ba0ab;
+    background-color: #1ba0ab;
+    color: white;
+  } */
+
+  .welcome__btns--size {
+    background-color: transparent;
+    border: 2px solid #1ba0ab;
+    color: #1ba0ab;
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    
   }
+
+ 
 
   .experts-section {
     padding: 160px 197px 160px 197px;
