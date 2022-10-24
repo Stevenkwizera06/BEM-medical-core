@@ -196,14 +196,29 @@
     gap: 10px;
   }
   
-  .section-text--gap{
+  .experts-section__gap{
     gap: 40px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .section-text__heading{
+  .experts-section__heading{
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
+  }
+
+  .experts-section__description{
+    font-size: 14px;
+    color: #737373;
+    line-height: 20px;
+    font-weight: 400;
+    max-width: 469px;
+  }
+
+  .experts-section__title {
+    color: #1ba0ab;
+    font-weight: 700;
   }
 
   .employee-section {
