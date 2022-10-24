@@ -100,8 +100,9 @@
     line-height: 4rem;
   }
    .section-text__heading {
-    font-weight: 800px;
+    font-weight: 1000px;
     line-height: 60px;
+    font-size: 40px;
    
   }
 
@@ -179,9 +180,7 @@
     align-items: center;
     gap: 144px;
   }
-  .meet-section__image {
-    width: 300px;
-  }
+  
 
   .experts-section__line {
     height: 7px;
@@ -220,6 +219,8 @@
     color: #1ba0ab;
     font-weight: 700;
   }
+
+
 
   .employee-section {
     padding: 112px 198px 112px 198px;
@@ -298,9 +299,11 @@
     width: 600px;
   }
 
-  .button--Subscribe {
+  .footer__btn-Subscribe {
     border: none;
     width: 120px;
+    color: white;
+    background-color: #1ba0ab
   }
 
   
