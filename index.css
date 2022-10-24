@@ -7,7 +7,7 @@
   .header {
     display: flex;
     background-color: #fff5f0;
-    padding: 20px 195px 20px 195px;
+    padding: 20px 190px;
     justify-content: space-between;
     align-items: center;
   }
@@ -82,11 +82,15 @@
     color: #1ba0ab;
     font-weight: 700;
   }
-
    .section-text__heading {
-    font-size: 40px;
-    font-weight: 800;
+    font-weight: 800px;
     line-height: 60px;
+   
+  }
+  .section-text--subtitle{
+    width: 30rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
 
   .section-text__description {
@@ -251,3 +255,5 @@
     border: none;
     width: 120px;
   }
+
+  
