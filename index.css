@@ -29,7 +29,8 @@
     gap: 21px;
   }
 
-  .header__link-element {
+  .header__link-element,
+  .header__authetication-login {
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -49,9 +50,10 @@
     gap: 45px;
   }
 
-  .header--color{
+  .header__authetication-login--color{
     color: #1ba0ab;
   }
+  
   
   .header__btn {
     padding: 15px 25px 15px 25px;
@@ -135,9 +137,11 @@
   .welcome-section__btns {
     display: flex;
     gap: 10px;
+    
+    
   }
 
-  .welcome-section--big {
+  .welcome-section__btns--big {
     background-color: #1ba0ab;
     color: white;
     padding: 15px 25px 15px 25px;
@@ -150,9 +154,8 @@
     color: white;
   }
 
- 
 
-  .welcome-section--size {
+  .welcome-section__btns--size {
     background-color: transparent;
     border: 2px solid #1ba0ab;
     color: #1ba0ab;
