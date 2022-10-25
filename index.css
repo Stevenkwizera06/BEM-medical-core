@@ -137,7 +137,7 @@
     gap: 10px;
   }
 
-  .welcome-section__btns--big {
+  .welcome-section--big {
     background-color: #1ba0ab;
     color: white;
     padding: 15px 25px 15px 25px;
@@ -152,7 +152,7 @@
 
  
 
-  .welcome-section__btns--size {
+  .welcome-section--size {
     background-color: transparent;
     border: 2px solid #1ba0ab;
     color: #1ba0ab;
