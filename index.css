@@ -29,7 +29,7 @@
     gap: 21px;
   }
 
-  .header-link-element {
+  .header__link-element {
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -49,11 +49,11 @@
     gap: 45px;
   }
 
-  .header-link--color{
+  .header__link--color{
     color: #1ba0ab;
   }
   
-  .header-btn {
+  .header__btn {
     padding: 15px 25px 15px 25px;
     font-size: 14px;
     font-weight: 700;
@@ -132,12 +132,12 @@
   }
   
 
-  .welcome-btns {
+  .welcome-section__btns {
     display: flex;
     gap: 10px;
   }
 
-  .welcome__btns--big {
+  .welcome-section__btns--big {
     background-color: #1ba0ab;
     color: white;
     padding: 15px 25px 15px 25px;
@@ -150,18 +150,9 @@
     color: white;
   }
 
-   /* .button--big {
-    padding: 15px 25px 15px 25px;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
-    background-color: #1ba0ab;
-    background-color: #1ba0ab;
-    color: white;
-  } */
+ 
 
-  .welcome__btns--size {
+  .welcome-section__btns--size {
     background-color: transparent;
     border: 2px solid #1ba0ab;
     color: #1ba0ab;
@@ -299,7 +290,7 @@
     width: 600px;
   }
 
-  .footer__btn-Subscribe {
+  .footer__btn-subscribe {
     border: none;
     width: 120px;
     color: white;
